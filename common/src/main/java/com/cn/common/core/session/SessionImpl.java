@@ -2,7 +2,7 @@ package com.cn.common.core.session;
 
 import org.jboss.netty.channel.Channel;
 /**
- * 会话封装类
+ * 会话封装类，不用将channel暴露出去，对channel封装，这样修改netty3，为4或5只需要修改这边的封装实现类逻辑就可以
  * @author -琴兽-
  *
  */

@@ -38,6 +38,7 @@ public class Server {
         //设置管道的工厂
         bootstrap.setPipelineFactory(new ChannelPipelineFactory() {
 
+            @Override
             public ChannelPipeline getPipeline() throws Exception {
 
                 ChannelPipeline pipeline = Channels.pipeline();
