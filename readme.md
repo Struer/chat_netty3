@@ -1,0 +1,2 @@
+通过netty3实现一个简单的聊天室功能：注册，登录，群组发送消息，指定个人发送消息；
+swing绑定事件，事件内调用netty客户端client的sendRequest方法，从而进入netty客户端发送消息的逻辑。
